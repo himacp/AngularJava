@@ -1,0 +1,11 @@
+<p>
+  parent works!
+</p>
+<div>
+  <label>NAME:
+ <input type="text" placeholder="name" [(ngModel)] = "value">
+  <!-- </label>
+  <button (click) = "onSubmit(value)">Submit</button>
+ </div> -->
+ <app-child [parentData]="value"></app-child>
+ <!-- If we want submit button to work then use Message in the place of [parentData]="value"-->
